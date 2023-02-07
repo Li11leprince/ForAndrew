@@ -1,10 +1,10 @@
 1. Создать файл LearningGit.md  touch LearningGit.md
 В него нужно заносить каждый пункт задачи и соответствующее решение
-    1. Закомитить
-    2. Запушить
-2. Создать ветку main на основе master
-3. Создать ветку dev на основе main
-4. Удалить ветку master
+    1. Закомитить   git add .; git commit -m "Add learninggit file"
+    2. Запушить git push
+2. Создать ветку main на основе master  git branch main
+3. Создать ветку dev на основе main git checkout main; git branch dev
+4. Удалить ветку master git branch -D master
 5. Перенести изменения в remote репозиторий
 6. Переименовать dev в develop
 7. Обновить remote репозиторий
