@@ -11,12 +11,12 @@
 - git push origin --delete master 
 6. Переименовать dev в develop  git branch -m develop
 7. Обновить remote репозиторий git push origin :dev develop
-8. Сделать ветку experiment/git-merge
+8. Сделать ветку experiment/git-merge   git branch experiment/git-merge (based on the main branch)
 9. Изменить удалить первую строчку README.md
-10. Закомитить
+10. Закомитить  git commit -m "Change first line"
 11. Добавить новую строчку в конец файла // контент произвольный
 12. Закоммитить
-13. Запушить
+13. Запушить    git push -u origin experiment/git-merge
 14. Переключиться на ветку develop
 15. Изменить первую строчку README.md
 16. Добавить новую строку в в конец файла README.md// контент произвольный
