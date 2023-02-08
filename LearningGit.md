@@ -13,16 +13,23 @@
 7. Обновить remote репозиторий git push origin :dev develop
 8. Сделать ветку experiment/git-merge
 9. Изменить удалить первую строчку README.md
-10. Закомитить
+10. Закомитить  git commit -m "Change first line"
 11. Добавить новую строчку в конец файла // контент произвольный
-12. Закоммитить
-13. Запушить
-14. Переключиться на ветку develop
+12. Закоммитить git commit -m "Add readme content and last line"
+13. Запушить    git push origin experiment/git-merge
+14. Переключиться на ветку develop  git checkout develop
 15. Изменить первую строчку README.md
 16. Добавить новую строку в в конец файла README.md// контент произвольный
 17. Закоммитить и запушить
+- git commit -m "Add content to readme"
+- git push origin develop
 18. Сделать Pull Request(Merge Request) из ветки experiment/git-merge в develop
+- did it github
 19. Локально смержить ветку develop в experiment/git-merge и разрешить конфликты
+- git checkout experiment/git-merge
+- git merge develop
+- resolving conflicts
 20. Закоммитить и запушить
 21. Убедиться, что нет конфликтов
 22. Смержить Merge Request
+- confirming the request in github
