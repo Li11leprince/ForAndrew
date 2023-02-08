@@ -6,8 +6,11 @@
 3. Создать ветку dev на основе main git checkout main; git branch dev
 4. Удалить ветку master git branch -D master
 5. Перенести изменения в remote репозиторий
-6. Переименовать dev в develop
-7. Обновить remote репозиторий
+- git push --all
+- change the default branch on github
+- git push origin --delete master 
+6. Переименовать dev в develop  git branch -m develop
+7. Обновить remote репозиторий git push origin :dev develop
 8. Сделать ветку experiment/git-merge
 9. Изменить удалить первую строчку README.md
 10. Закомитить
